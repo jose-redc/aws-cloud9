@@ -216,7 +216,11 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails (= 4.1.1)
   listen (>= 3.0.5, < 3.2)
+<<<<<<< HEAD
+  pg
+=======
   pg (= 1.1.4)
+>>>>>>> pages_and_layout
   puma (~> 3.11)
   rails (~> 5.2.3)
   sass-rails (~> 5.0)

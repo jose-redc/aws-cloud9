@@ -86,6 +86,7 @@ GEM
       sass (>= 3.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    hirb (0.7.3)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
@@ -213,14 +214,11 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   font-awesome-sass (= 4.6.2)
+  hirb (= 0.7.3)
   jbuilder (~> 2.5)
   jquery-rails (= 4.1.1)
   listen (>= 3.0.5, < 3.2)
-<<<<<<< HEAD
-  pg
-=======
   pg (= 1.1.4)
->>>>>>> pages_and_layout
   puma (~> 3.11)
   rails (~> 5.2.3)
   sass-rails (~> 5.0)

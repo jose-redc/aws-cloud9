@@ -42,6 +42,12 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+# Use Twitter Bootstrap library for front-end UI and layout
+gem 'bootstrap-sass', '3.4.1'
+
+# Use Font Awesome sass gem for adding icons
+gem 'font-awesome-sass', '4.6.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -69,7 +75,7 @@ end
 
 group :production do
   # Use the PostgreSQL gem for Heroku production servers
-  gem 'pg'
+  gem 'pg', '1.1.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

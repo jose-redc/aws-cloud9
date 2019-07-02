@@ -1,11 +1,5 @@
 class ContactsController < ApplicationController
-<<<<<<< HEAD
 
-  def new
-  end
-
-=======
->>>>>>> c2e559a83c680d5a972b128ed5e9190e9d88709a
   
   def new
   @contact = Contact.new
@@ -34,9 +28,6 @@ class ContactsController < ApplicationController
     def contact_params
        params.require(:contact).permit(:name, :email, :comments)
     end
-<<<<<<< HEAD
-=======
-  
->>>>>>> c2e559a83c680d5a972b128ed5e9190e9d88709a
+
 
 end
